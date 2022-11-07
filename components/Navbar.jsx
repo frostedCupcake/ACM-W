@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React, { useState } from "react";
 import { useRouter } from "next/router";
+import Image from "next/image";
 
 const Navbar = () => {
   let hidden_class = "hidden w-full md:block md:w-auto";
@@ -16,11 +17,17 @@ const Navbar = () => {
   return (
     <nav className="bg-white border-2 px-2 sm:px-4 py-2.5 rounded sticky top-0 z-50">
       <div className="container flex flex-wrap justify-between items-center mx-auto relative">
-        <Link href="/" className="flex items-center">
-          <span className="self-center text-xl font-semibold whitespace-nowrap ">
-            ACM-W
-          </span>
+        <Link href="/" class="flex items-center">
+          <Image
+            src={
+              "https://res.cloudinary.com/dbmw0xoar/image/upload/v1667804084/ecell/ACM-W/ACM-w_iith_transparent_logo_u6flex.png"
+            }
+            width="70"
+            height={"70"}
+            alt="ACM-W Logo"
+          />
         </Link>
+
         <button
           data-collapse-toggle="navbar-default"
           type="button"
