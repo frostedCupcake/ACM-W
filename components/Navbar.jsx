@@ -9,9 +9,9 @@ const Navbar = () => {
   let [hidden, setHidden] = useState(true);
 
   const active_class =
-    "block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0";
+    "block py-2 pr-4 pl-3 text-white bg-[#33769C] rounded md:bg-transparent md:text-[#33769C] md:p-0";
   const not_active_class =
-    "block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0";
+    "block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#33769C] md:p-0";
 
   return (
     <nav className="bg-white border-2 px-2 sm:px-4 py-2.5 rounded sticky top-0 z-50">
@@ -68,9 +68,9 @@ const Navbar = () => {
             </li>
             <li>
               <Link
-                href="/people"
+                href="/team"
                 className={
-                  router.pathname == "/people" ? active_class : not_active_class
+                  router.pathname == "/team" ? active_class : not_active_class
                 }
                 onClick={() => {
                   setHidden((prev) => !prev);
@@ -81,11 +81,9 @@ const Navbar = () => {
             </li>
             <li>
               <Link
-                href="/research"
+                href="/events"
                 className={
-                  router.pathname == "/research"
-                    ? active_class
-                    : not_active_class
+                  router.pathname == "/events" ? active_class : not_active_class
                 }
                 onClick={() => {
                   setHidden((prev) => !prev);
@@ -94,7 +92,7 @@ const Navbar = () => {
                 Events
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link
                 href="/contact"
                 className={
@@ -108,7 +106,7 @@ const Navbar = () => {
               >
                 Contact
               </Link>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>
