@@ -1,7 +1,7 @@
 import React from "react";
 
 const events = () => {
-  return <div>some damn events</div>;
+  return <div>some events</div>;
 };
 
 export default events;

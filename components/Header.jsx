@@ -14,10 +14,10 @@ const Header = () => {
             height="300"
           />
         </div>
-        <h1 className="uppercase md:text-3xl tracing-wide py-5 text-[#33769C] font-sans">
+        <h1 className="uppercase text-[1.1rem] md:text-3xl tracing-wide py-5 text-[#33769C] font-sans">
           ACM-Women
         </h1>
-        <h1 className="uppercase md:text-2xl tracking-widest text-[#33769C]">
+        <h1 className="uppercase text-[1rem] md:text-2xl tracking-widest text-[#33769C]">
           Student Chapter IITH
         </h1>
         <div className="w-[80%] sm:w-[30rem] md:w-[40rem] py-10">
