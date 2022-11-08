@@ -12,6 +12,7 @@ const Header = () => {
             }
             width="300"
             height="300"
+            alt={"ACM-W Logo"}
           />
         </div>
         <h1 className="uppercase text-[1.1rem] md:text-3xl tracing-wide py-5 text-[#33769C] font-sans">
