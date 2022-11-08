@@ -149,4 +149,4 @@ const finance_cores = [
   },
 ];
 
-export default { finance_cores, events_cores, design_cores, web_cores };
+// export default { finance_cores, events_cores, design_cores, web_cores };
