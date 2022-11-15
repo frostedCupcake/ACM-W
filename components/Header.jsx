@@ -4,14 +4,12 @@ import React from "react";
 const Header = () => {
   return (
     <section className="">
-      <div className="flex flex-col justify-center items-center">
-        <div className="">
-          <Image
+      <div className="flex flex-col justify-center items-center mt-5">
+        <div className="w-[80%] sm:w-[50%] md:w-[40rem] rounded-md shadow-xl">
+          <img
             src={
-              "https://res.cloudinary.com/dbmw0xoar/image/upload/v1667804160/ecell/ACM-W/LOGO1_ht9fjr.png"
+              "https://res.cloudinary.com/dbmw0xoar/image/upload/v1668542351/ecell/ACM-W/ACMW-Heads_1_msi0h7.jpg"
             }
-            width="300"
-            height="300"
             alt={"ACM-W Logo"}
           />
         </div>

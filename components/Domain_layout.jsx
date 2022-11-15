@@ -3,7 +3,7 @@ import Team_card from "./Team_card";
 
 const Domain_layout = ({ data, domain }) => {
   return (
-    <div className="sm:w-[30rem]  md:w-[50rem] mx-auto py-10 text-center ">
+    <div className="sm:w-[30rem]  md:w-[50rem] mx-auto py-10 text-center">
       <h1 className="text-center text-xl md:text-2xl lg:text-3xl uppercase">
         {domain}
       </h1>

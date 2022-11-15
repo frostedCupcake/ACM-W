@@ -295,6 +295,40 @@ const profs = [
   },
 ];
 
+const social_cores = [
+  {
+    name: "Nivas",
+    degree: "B. Tech",
+    i_link:
+      "https://res.cloudinary.com/dbmw0xoar/image/upload/v1668543511/ecell/ACM-W/NIVAS_1_o8dwxo.jpg",
+    l_link: "",
+    p_link: "",
+  },
+  {
+    name: "Prem",
+    degree: "B. Tech",
+    i_link:
+      "https://res.cloudinary.com/dbmw0xoar/image/upload/v1668543328/ecell/ACM-W/Prem_ghoxlq.jpg",
+    p_link: "",
+  },
+  {
+    name: "Priyansha Tiwari",
+    degree: "B. Tech",
+    i_link:
+      "https://res.cloudinary.com/dbmw0xoar/image/upload/v1668543328/ecell/ACM-W/Priyansha_Tiwari_z570iz.jpg",
+    l_link: "",
+    p_link: "",
+  },
+  {
+    name: "Lanka Prasanna",
+    degree: "B. Tech",
+    i_link:
+      "https://res.cloudinary.com/dbmw0xoar/image/upload/v1668543327/ecell/ACM-W/Lanka_Prasanna_rquvdn.jpg",
+    l_link: "",
+    p_link: "",
+  },
+];
+
 const team = () => {
   return (
     <div>
@@ -311,9 +345,8 @@ const team = () => {
       </h1>
       <Domain_layout data={events_cores} domain={"events"} />
       <Domain_layout data={web_cores} domain={"Web"} />
-      <div className="">
-        <h1>social media</h1>
-      </div>
+      <Domain_layout data={social_cores} domain={"Social Media"} />
+
       <Domain_layout data={design_cores} domain={"Design"} />
       <Domain_layout data={finance_cores} domain={"Finance"} />
     </div>

@@ -14,7 +14,7 @@ const Team_card = ({
   role,
 }) => {
   return (
-    <div className="h-100 w-100 inline-block text-center m-10">
+    <div className="h-100 w-100 inline-block text-center m-10 ">
       {role ? (
         <h1 className="text-xl my-4 border-b border-red w-[10rem] text-center mx-auto">
           {role}
@@ -32,7 +32,7 @@ const Team_card = ({
           alt={`${name}`}
           layout="fill"
           objectFit="cover"
-          className="rounded-full"
+          className="rounded-full shadow-xl"
         />
       </div>
       <h3 className="font-medium text-[1.1rem] mt-3">{name}</h3>
