@@ -14,7 +14,7 @@ const design_cores = [
   },
 
   {
-    name: 'Subiksha Gayathiri K K',
+    name: 'Subiksha Gayathiri',
     degree: 'B.Tech',
     i_link:
       'https://res.cloudinary.com/dhpbbbzhs/image/upload/v1667739220/Cores/Subiksha_Gayathiri_K_K_kpnqcq.jpg',
@@ -61,7 +61,7 @@ const web_cores = [
   },
 
   {
-    name: 'Gayathri Shreeya Patnala',
+    name: 'Gayathri Shreeya',
     degree: 'B.Tech',
     i_link:
       'https://res.cloudinary.com/dhpbbbzhs/image/upload/v1667739215/Cores/Gayathri_Shreeya_Patnala_lezxmj.jpg',
@@ -196,7 +196,7 @@ const heads = [
   },
 
   {
-    name: 'Nandita Lakshmi Tunuguntla',
+    name: 'Nandita Lakshmi',
     degree: 'B.Tech',
     role: 'web',
     i_link:
@@ -268,7 +268,7 @@ const heads = [
 
 const profs = [
   {
-    name: 'Subrahmanyam Kalyanasundaram',
+    name: 'K Subrahmanyam',
     degree: 'Professor',
     i_link:
       'https://res.cloudinary.com/dhpbbbzhs/image/upload/v1667739317/Professors/Subrahmanyam-Kalyanasundaram_lvqu5o.jpg',
@@ -331,16 +331,13 @@ const social_cores = [
 
 const team = () => {
   return (
-    <div>
-      <div className="">
-        <h1 className="text-center text-xl md:text-2xl lg:text-3xl py-10">
-          TEAM
-        </h1>
+    <div className="flex flex-col items-center justify-center gap-10 py-16">
+      <div className=" ">
         <Domain_layout data={profs} domain={'FACULTY ADVISORS'} />
       </div>
 
       <Domain_layout data={heads} domain={'heads'} />
-      <h1 className="text-center text-xl md:text-2xl lg:text-3xl py-10">
+      <h1 className="text-center text-xl md:text-2xl lg:text-[2.2rem] border-b-[3px] border-[#33769C] my-5 uppercase text-[#33769C] main__font">
         CORES
       </h1>
       <Domain_layout data={events_cores} domain={'events'} />

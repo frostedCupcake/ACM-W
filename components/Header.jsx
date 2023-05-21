@@ -16,17 +16,17 @@ const Header = () => {
         <div className="flex flex-col items-center justify-center gap-5">
           <Image
             src={
-              'https://res.cloudinary.com/dbmw0xoar/image/upload/v1667804084/ecell/ACM-W/ACM-w_iith_transparent_logo_u6flex.png'
+              'https://res.cloudinary.com/dbmw0xoar/image/upload/v1684682725/ecell/ACM-W/ACM-w_iith_transparent_logo_1_pd1hrt.png'
             }
-            width="70"
-            height="70"
+            width="700"
+            height="700"
             alt="ACM-W Logo"
-            className="w-[10rem]"
+            className="w-[20rem]"
           />
-          <h1 className="uppercase text-[1.1rem] lg:text-[2rem] tracking-widest  text-[#33769C] main__font">
+          <h1 className="uppercase text-[1.1rem] lg:text-[2.5rem] tracking-widest  text-[#33769C] main__font">
             ACM-Women
           </h1>
-          <h1 className="uppercase lg:text-[2rem] md:text-2xl tracking-widest text-[#33769C]  main__font">
+          <h1 className="uppercase lg:text-[2.5rem] md:text-2xl tracking-widest text-[#33769C]  main__font">
             Student Chapter IITH
           </h1>
           <div className="w-[80%] sm:w-[30rem] md:w-[40rem]  text-justify leading-7 tracking-wider lg:text-[1.1rem]">
