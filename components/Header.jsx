@@ -4,7 +4,7 @@ import React from 'react';
 const Header = () => {
   return (
     <section className="">
-      <div className="flex flex-col justify-center items-center mt-5">
+      <div className="flex flex-row justify-center items-center my-[5rem] gap-10">
         <div className="w-[80%] sm:w-[50%] md:w-[40rem] rounded-md shadow-xl">
           <img
             src={
@@ -13,19 +13,30 @@ const Header = () => {
             alt={'ACM-W Logo'}
           />
         </div>
-        <h1 className="uppercase text-[1.1rem] md:text-3xl tracing-wide py-5 text-[#33769C] main__font">
-          ACM-Women
-        </h1>
-        <h1 className="uppercase text-[1rem] md:text-2xl tracking-widest text-[#33769C]  main__font">
-          Student Chapter IITH
-        </h1>
-        <div className="w-[80%] sm:w-[30rem] md:w-[40rem] py-10">
-          We are glad to announce the launch of the ACM Women Student Chapter, a
-          networking platform to bring together all the young minds in
-          engineering to fire their inner leader, make notable contributions to
-          tech, and broaden their connections. We aim to usher these young minds
-          into the student community to leap forward in envisioning their dream
-          selves
+        <div className="flex flex-col items-center justify-center gap-5">
+          <Image
+            src={
+              'https://res.cloudinary.com/dbmw0xoar/image/upload/v1667804084/ecell/ACM-W/ACM-w_iith_transparent_logo_u6flex.png'
+            }
+            width="70"
+            height="70"
+            alt="ACM-W Logo"
+            className="w-[10rem]"
+          />
+          <h1 className="uppercase text-[1.1rem] lg:text-[2rem] tracking-widest  text-[#33769C] main__font">
+            ACM-Women
+          </h1>
+          <h1 className="uppercase lg:text-[2rem] md:text-2xl tracking-widest text-[#33769C]  main__font">
+            Student Chapter IITH
+          </h1>
+          <div className="w-[80%] sm:w-[30rem] md:w-[40rem]  text-justify leading-7 tracking-wider lg:text-[1.1rem]">
+            We are glad to announce the launch of the ACM Women Student Chapter,
+            a networking platform to bring together all the young minds in
+            engineering to fire their inner leader, make notable contributions
+            to tech, and broaden their connections. We aim to usher these young
+            minds into the student community to leap forward in envisioning
+            their dream selves
+          </div>
         </div>
       </div>
     </section>
