@@ -1,9 +1,9 @@
-import Link from "next/link";
-import React from "react";
+import Link from 'next/link';
+import React from 'react';
 
 const Footer = () => {
   return (
-    <div className="my-[1rem] border-t-2  py-[2rem]">
+    <div className="mt-[1rem] border-t-2  py-[2rem]">
       <div className="block text-center font-bold ">ACM-W</div>
       <div className="flex flex-col justify-center items-center">
         <div className="text-[.8rem] text-zinc-500 py-1">

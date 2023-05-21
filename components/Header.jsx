@@ -1,5 +1,5 @@
-import Image from "next/image";
-import React from "react";
+import Image from 'next/image';
+import React from 'react';
 
 const Header = () => {
   return (
@@ -8,15 +8,15 @@ const Header = () => {
         <div className="w-[80%] sm:w-[50%] md:w-[40rem] rounded-md shadow-xl">
           <img
             src={
-              "https://res.cloudinary.com/dbmw0xoar/image/upload/v1668542351/ecell/ACM-W/ACMW-Heads_1_msi0h7.jpg"
+              'https://res.cloudinary.com/dbmw0xoar/image/upload/v1668542351/ecell/ACM-W/ACMW-Heads_1_msi0h7.jpg'
             }
-            alt={"ACM-W Logo"}
+            alt={'ACM-W Logo'}
           />
         </div>
-        <h1 className="uppercase text-[1.1rem] md:text-3xl tracing-wide py-5 text-[#33769C] font-sans">
+        <h1 className="uppercase text-[1.1rem] md:text-3xl tracing-wide py-5 text-[#33769C] main__font">
           ACM-Women
         </h1>
-        <h1 className="uppercase text-[1rem] md:text-2xl tracking-widest text-[#33769C]">
+        <h1 className="uppercase text-[1rem] md:text-2xl tracking-widest text-[#33769C]  main__font">
           Student Chapter IITH
         </h1>
         <div className="w-[80%] sm:w-[30rem] md:w-[40rem] py-10">
