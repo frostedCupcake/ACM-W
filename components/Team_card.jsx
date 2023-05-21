@@ -1,8 +1,8 @@
-import React from "react";
-import Image from "next/image";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import { faUser } from "@fortawesome/free-solid-svg-icons";
+import React from 'react';
+import Image from 'next/image';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faUser } from '@fortawesome/free-solid-svg-icons';
 
 const Team_card = ({
   name,
@@ -20,19 +20,19 @@ const Team_card = ({
           {role}
         </h1>
       ) : (
-        " "
+        ' '
       )}
       <div className="h-40 w-40 relative m-auto">
         <Image
           src={
             i_link
               ? i_link
-              : "https://res.cloudinary.com/dbmw0xoar/image/upload/v1666629405/ecell/NetX/math_q80bw1.jpg"
+              : 'https://res.cloudinary.com/dbmw0xoar/image/upload/v1666629405/ecell/NetX/math_q80bw1.jpg'
           }
           alt={`${name}`}
-          layout="fill"
-          objectFit="cover"
-          className="rounded-full shadow-xl"
+          fill={true}
+          style={{ objectFit: 'cover' }}
+          className="rounded-xl shadow-xl"
         />
       </div>
       <h3 className="font-medium text-[1.1rem] mt-3">{name}</h3>

@@ -1,13 +1,13 @@
-import React from "react";
-import Team_card from "./Team_card";
+import React from 'react';
+import Team_card from './Team_card';
 
 const Domain_layout = ({ data, domain }) => {
   return (
-    <div className="sm:w-[30rem]  md:w-[50rem] mx-auto py-10 text-center">
+    <div className="sm:w-[30rem] lg:w-[55rem] mx-auto py-10 text-center">
       <h1 className="text-center text-xl md:text-2xl lg:text-3xl uppercase">
         {domain}
       </h1>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 ">
+      <div className="flex-wrap ">
         {data.map((item) => (
           <Team_card
             name={item.name}
