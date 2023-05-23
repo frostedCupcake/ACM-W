@@ -10,61 +10,34 @@ const Navbar = () => {
   let [hidden, setHidden] = useState(true);
 
   const active_class =
-    'block py-2 pr-4 pl-3 text-white bg-[#40B3FB] md:bg-transparent md:text-[#40B3FB] md:p-0 border-b-2 border-[#40B3FB]';
+    'block py-2 pr-4 pl-3 text-white bg-black/80 md:bg-transparent md:text-black/80 md:p-0 border-b-2 border-black/80';
   const not_active_class =
-    'block py-2 pr-4 pl-3 text-gray-400 hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#40B3FB] md:p-0';
+    'block py-2 pr-4 pl-3 text-gray-400 hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-black/80 md:p-0';
 
   return (
-    <nav className="shadow-md px-2 sm:px-4 py-2.5 rounded-2xl relative top-2 bg-[#22272E]/90 mx-10 ">
-      <div className="container flex flex-wrap justify-center items-center mx-auto relative">
-        {/* <Link href="/" class="flex items-center">
-          <Image
-            src={
-              'https://res.cloudinary.com/dbmw0xoar/image/upload/v1667804084/ecell/ACM-W/ACM-w_iith_transparent_logo_u6flex.png'
-            }
-            width="70"
-            height={'70'}
-            alt="ACM-W Logo"
-          />
-        </Link> */}
-
-        <button
-          data-collapse-toggle="navbar-default"
-          type="button"
-          class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 "
-          aria-controls="navbar-default"
-          aria-expanded="false"
-          onClick={() => {
-            setHidden((prev) => !prev);
-          }}
-        >
-          <span class="sr-only">Open main menu</span>
-          <svg
-            class="w-6 h-6"
-            aria-hidden="true"
-            fill="currentColor"
-            viewBox="0 0 20 20"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              fill-rule="evenodd"
-              d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-              clip-rule="evenodd"
-            ></path>
-          </svg>
-        </button>
-
-        <div
-          className={hidden ? hidden_class : normal_class}
-          id="navbar-default"
-        >
-          <ul className="flex flex-col p-4 mt-4  rounded-lg border md:flex-row md:space-x-8 md:mt-0 md:text-sm lg:text-[1.3rem] md:font-medium md:border-0 ">
+    <nav className="shadow-md rounded-2xl relative top-2  mx-10 ">
+      <div className="navbar bg-base-100 ">
+        <div className="flex-1">
+          <a className="btn btn-ghost normal-case text-xl">
+            <Image
+              src={
+                'https://res.cloudinary.com/dbmw0xoar/image/upload/v1684682725/ecell/ACM-W/ACM-w_iith_transparent_logo_1_pd1hrt.png'
+              }
+              width="700"
+              height="700"
+              alt="ACM-W Logo"
+              className="w-[5rem]"
+            />
+          </a>
+        </div>
+        <div className="flex-none">
+          <ul className="menu menu-horizontal px-1">
             <li>
               <Link
                 href="/"
-                className={
-                  router.pathname == '/' ? active_class : not_active_class
-                }
+                // className={
+                //   router.pathname == '/' ? active_class : not_active_class
+                // }
                 aria-current="page"
                 onClick={() => {
                   setHidden((prev) => !prev);
@@ -76,9 +49,9 @@ const Navbar = () => {
             <li>
               <Link
                 href="/team"
-                className={
-                  router.pathname == '/team' ? active_class : not_active_class
-                }
+                // className={
+                //   router.pathname == '/team' ? active_class : not_active_class
+                // }
                 onClick={() => {
                   setHidden((prev) => !prev);
                 }}
@@ -86,12 +59,13 @@ const Navbar = () => {
                 Team
               </Link>
             </li>
+
             <li>
               <Link
                 href="/events"
-                className={
-                  router.pathname == '/events' ? active_class : not_active_class
-                }
+                // className={
+                //   router.pathname == '/events' ? active_class : not_active_class
+                // }
                 onClick={() => {
                   setHidden((prev) => !prev);
                 }}
@@ -99,21 +73,6 @@ const Navbar = () => {
                 Events
               </Link>
             </li>
-            {/* <li>
-              <Link
-                href="/contact"
-                className={
-                  router.pathname == "/contact"
-                    ? active_class
-                    : not_active_class
-                }
-                onClick={() => {
-                  setHidden((prev) => !prev);
-                }}
-              >
-                Contact
-              </Link>
-            </li> */}
           </ul>
         </div>
       </div>
