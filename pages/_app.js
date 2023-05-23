@@ -7,7 +7,7 @@ config.autoAddCss = false;
 
 function MyApp({ Component, pageProps }) {
   return (
-    <div className="">
+    <div className="bg-white">
       {/* <Navbar /> */}
       <Component {...pageProps} />
       <Footer />

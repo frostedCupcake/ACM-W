@@ -30,7 +30,7 @@ const Header = () => {
           <h1 className="uppercase text-[1.5rem] 8xl:text-[2rem] 11xl:text-[2.3rem] 14xl:text-[2.5rem]  tracking-widest text-[#33769C]  main__font mb-5">
             Student Chapter IITH
           </h1>
-          <div className="w-[90%] md:w-[40rem]  text-center 12xl:text-justify leading-7 tracking-wider text-[.9rem] 8xl:text-[1.1rem] 12xl:text-[1rem] 14xl:text-[1.1rem] ">
+          <div className="w-[95%] md:w-[40rem]  text-center 12xl:text-justify leading-7 tracking-wider text-[.9rem] 8xl:text-[1.1rem] 12xl:text-[1rem] 14xl:text-[1.1rem] text-black">
             We are glad to announce the launch of the ACM Women Student Chapter,
             a networking platform to bring together all the young minds in
             engineering to fire their inner leader, make notable contributions
