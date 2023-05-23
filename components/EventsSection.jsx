@@ -5,7 +5,7 @@ const EventsSection = () => {
   return (
     <div className="py-[5rem] flex flex-col items-center justify-center">
       <h2 className="uppercase lg:text-[2.3rem] md:text-2xl tracking-wider text-[#33769C]  main__font my-10">
-        What's Happening
+        What&apos;s Happening
       </h2>
       <div className="grid grid-cols-2 mx-auto gap-5">
         <EventCard
