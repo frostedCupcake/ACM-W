@@ -3,11 +3,11 @@ import EventCard from './EventCard';
 
 const EventsSection = () => {
   return (
-    <div className="py-[5rem] flex flex-col items-center justify-center">
-      <h2 className="uppercase lg:text-[2.3rem] md:text-2xl tracking-wider text-[#33769C]  main__font my-10">
+    <div className="pt-[5rem] pb-[8rem] flex flex-col items-center justify-center border-b-2 border-black/10 w-fit mx-auto 8xl:px-10">
+      <h2 className="uppercase text-[2rem] lg:text-[2.3rem]  tracking-wider text-[#33769C]  main__font my-10">
         What&apos;s Happening
       </h2>
-      <div className="grid grid-cols-2 mx-auto gap-5">
+      <div className="grid 8xl:grid-cols-2 mx-auto gap-5">
         <EventCard
           instaLink="https://www.instagram.com/p/Ck8V9gnoKNY/?utm_source=ig_web_copy_link"
           imgLink="https://res.cloudinary.com/dbmw0xoar/image/upload/v1668541971/ecell/ACM-W/acm_event1_drbadi.jpg"

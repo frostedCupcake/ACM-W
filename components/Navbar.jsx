@@ -15,7 +15,7 @@ const Navbar = () => {
     'block py-2 pr-4 pl-3 text-gray-400 hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-black/80 md:p-0';
 
   return (
-    <nav className="shadow-md rounded-2xl relative top-2  mx-10 ">
+    <nav className="shadow-md rounded-2xl relative top-2  mx-10">
       <div className="navbar bg-base-100 ">
         <div className="flex-1">
           <a className="btn btn-ghost normal-case text-xl">

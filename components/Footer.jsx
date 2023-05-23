@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div
       className="mt-[1rem] px-2 mx-10 sm:px-4  rounded-sm relative bottom-2 py-[2rem] 
-      bg-base-100  flex flex-row items-center justify-around border-t-2 border-black/10"
+      bg-base-100  flex flex-col 8xl:flex-row items-center justify-around gap-10 8xl:gap-0"
     >
       <Image
         src={
@@ -53,7 +53,7 @@ const Footer = () => {
             </svg>
           </a>
         </div>
-        <div className="text-[.9rem] text-black/90 py-1">
+        <div className="text-[.8rem] 8xl:text-[.9rem] text-black/90 py-1 text-center">
           Copyright © 2023 ACM-W, Student Chapter IIT Hyderbad
         </div>
       </div>

@@ -1,5 +1,6 @@
 import React from 'react';
 import Domain_layout from '../components/Domain_layout';
+import Navbar from '../components/Navbar';
 import Team_card from '../components/Team_card';
 // import design_cores from "../information/cores";
 
@@ -331,21 +332,24 @@ const social_cores = [
 
 const team = () => {
   return (
-    <div className="flex flex-col items-center justify-center gap-10 py-16">
-      <div className=" ">
-        <Domain_layout data={profs} domain={'FACULTY ADVISORS'} />
+    <div className="bg-[#B7D7E5]">
+      <Navbar />
+      <div className="flex flex-col items-center justify-center gap-10 py-16 ">
+        <div className=" ">
+          <Domain_layout data={profs} domain={'FACULTY ADVISORS'} />
+        </div>
+
+        <Domain_layout data={heads} domain={'heads'} />
+        <h1 className="text-center text-xl md:text-2xl lg:text-[2.2rem] border-b-[3px] border-[#33769C] my-5 uppercase text-[#33769C] main__font">
+          CORES
+        </h1>
+        <Domain_layout data={events_cores} domain={'events'} />
+        <Domain_layout data={web_cores} domain={'Web'} />
+        <Domain_layout data={social_cores} domain={'Social Media'} />
+
+        <Domain_layout data={design_cores} domain={'Design'} />
+        <Domain_layout data={finance_cores} domain={'Finance'} />
       </div>
-
-      <Domain_layout data={heads} domain={'heads'} />
-      <h1 className="text-center text-xl md:text-2xl lg:text-[2.2rem] border-b-[3px] border-[#33769C] my-5 uppercase text-[#33769C] main__font">
-        CORES
-      </h1>
-      <Domain_layout data={events_cores} domain={'events'} />
-      <Domain_layout data={web_cores} domain={'Web'} />
-      <Domain_layout data={social_cores} domain={'Social Media'} />
-
-      <Domain_layout data={design_cores} domain={'Design'} />
-      <Domain_layout data={finance_cores} domain={'Finance'} />
     </div>
   );
 };
