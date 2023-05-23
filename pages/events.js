@@ -26,6 +26,9 @@ const events = () => {
     'https://res.cloudinary.com/dzegys5yk/image/upload/v1684862369/ACM-W/_MG_5075_sogc3m.jpg',
     'https://res.cloudinary.com/dzegys5yk/image/upload/v1684862369/ACM-W/_MG_5088_ionnyw.jpg',
   ];
+  const e1Data = [
+    'https://res.cloudinary.com/dbmw0xoar/image/upload/v1668541971/ecell/ACM-W/acm_event1_drbadi.jpg',
+  ];
   return (
     <div className="bg-[#B7D7E5]">
       <Navbar />
@@ -35,7 +38,7 @@ const events = () => {
             <h5 className="text-center text-xl md:text-2xl lg:text-[2rem] border-b-[3px] border-[#33769C] my-5 capitalize text-[#33769C] main__font w-fit">
               RecHERsion 2022
             </h5>
-            <EventCarousel imageLinks={e4Data} />
+            <EventCarousel imageLinks={e1Data} />
             <div className="content flex flex-col md:w-[38rem] 5xl:w-[30rem] w-[90%] mx-auto">
               <p className="text-[#333333] text-[.9rem] 5xl:text-[1rem] lg:text-[1.1rem] text-justify">
                 We conducted a coding event pairing with NITK's ACM-W chapter:
