@@ -67,11 +67,11 @@ const events = () => {
         <div className="flex flex-col items-center justify-center">
           <div className="flex flex-col gap-5 mx-auto items-center justify-center">
             <div className="flex flex-col items-center justify-center gap-2">
-              <h5 className="text-center text-xl md:text-2xl lg:text-[2rem] border-b-[3px] border-[#33769C] mt-5 capitalize text-[#33769C] main__font w-fit ">
-                ACM India Student and Professional Chapter
+              <h5 className="text-center text-[1rem] md:text-2xl lg:text-[2rem] border-b-[3px] border-[#33769C] mt-5 capitalize text-[#33769C] main__font w-fit ">
+                ACM India Student and Professional
               </h5>
-              <h5 className="text-center text-xl md:text-2xl lg:text-[2rem] border-b-[3px] border-[#33769C] mb-5 capitalize text-[#33769C] main__font w-fit ">
-                Summit 2023 held at IISER PUNE
+              <h5 className="text-center text-[1rem] md:text-2xl lg:text-[2rem] border-b-[3px] border-[#33769C] mb-5 capitalize text-[#33769C] main__font w-fit ">
+                Chapter Summit 2023 held at IISER PUNE
               </h5>
             </div>
             <EventCarousel imageLinks={e3Data} />
