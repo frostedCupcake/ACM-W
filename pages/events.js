@@ -5,28 +5,28 @@ import Navbar from '../components/Navbar';
 
 const events = () => {
   const e4Data = [
-    'https://res.cloudinary.com/dzegys5yk/image/upload/v1684860699/ACM-W/IMG-20230413-WA0016_qck2ft.jpg',
-    'https://res.cloudinary.com/dzegys5yk/image/upload/v1684860699/ACM-W/IMG-20230413-WA0025_gztrj0.jpg',
-    'https://res.cloudinary.com/dzegys5yk/image/upload/v1684860699/ACM-W/IMG-20230413-WA0026_qulfec.jpg',
-    'https://res.cloudinary.com/dzegys5yk/image/upload/v1684860699/ACM-W/IMG-20230413-WA0020_cy7a6i.jpg',
+    'https://res.cloudinary.com/dzegys5yk/image/upload/w_600/v1684860699/ACM-W/IMG-20230413-WA0016_qck2ft.jpg',
+    'https://res.cloudinary.com/dzegys5yk/image/upload/w_600/v1684860699/ACM-W/IMG-20230413-WA0025_gztrj0.jpg',
+    'https://res.cloudinary.com/dzegys5yk/image/upload/w_600/v1684860699/ACM-W/IMG-20230413-WA0026_qulfec.jpg',
+    'https://res.cloudinary.com/dzegys5yk/image/upload/w_600/v1684860699/ACM-W/IMG-20230413-WA0020_cy7a6i.jpg',
   ];
   const e3Data = [
-    'https://res.cloudinary.com/dzegys5yk/image/upload/v1684860737/ACM-W/acm3_1_nlsy2a.png',
-    'https://res.cloudinary.com/dzegys5yk/image/upload/v1684860738/ACM-W/acm2_bmwx6x.png',
-    'https://res.cloudinary.com/dzegys5yk/image/upload/v1684860739/ACM-W/DSC_0451_ma7qec.jpg',
-    'https://res.cloudinary.com/dzegys5yk/image/upload/v1684860739/ACM-W/DSC_0446_1_zaqpwt.jpg',
+    'https://res.cloudinary.com/dzegys5yk/image/upload/w_600/v1684860737/ACM-W/acm3_1_nlsy2a.png',
+    'https://res.cloudinary.com/dzegys5yk/image/upload/w_600/v1684860738/ACM-W/acm2_bmwx6x.png',
+    'https://res.cloudinary.com/dzegys5yk/image/upload/w_600/v1684860739/ACM-W/DSC_0451_ma7qec.jpg',
+    'https://res.cloudinary.com/dzegys5yk/image/upload/w_600/v1684860739/ACM-W/DSC_0446_1_zaqpwt.jpg',
   ];
   const e2Data = [
-    'https://res.cloudinary.com/dzegys5yk/image/upload/v1684860811/ACM-W/_MG_5067_zifdfh.jpg',
-    'https://res.cloudinary.com/dzegys5yk/image/upload/v1684862368/ACM-W/_MG_5039_ehk6r0.jpg',
-    'https://res.cloudinary.com/dzegys5yk/image/upload/v1684862369/ACM-W/_MG_5048_ra2al5.jpg',
-    'https://res.cloudinary.com/dzegys5yk/image/upload/v1684862369/ACM-W/_MG_5071_kc4ycy.jpg',
-    'https://res.cloudinary.com/dzegys5yk/image/upload/v1684862369/ACM-W/_MG_5085_f1eomk.jpg',
-    'https://res.cloudinary.com/dzegys5yk/image/upload/v1684862369/ACM-W/_MG_5075_sogc3m.jpg',
-    'https://res.cloudinary.com/dzegys5yk/image/upload/v1684862369/ACM-W/_MG_5088_ionnyw.jpg',
+    'https://res.cloudinary.com/dzegys5yk/image/upload/w_600/v1684860811/ACM-W/_MG_5067_zifdfh.jpg',
+    'https://res.cloudinary.com/dzegys5yk/image/upload/w_600/v1684862368/ACM-W/_MG_5039_ehk6r0.jpg',
+    'https://res.cloudinary.com/dzegys5yk/image/upload/w_600/v1684862369/ACM-W/_MG_5048_ra2al5.jpg',
+    'https://res.cloudinary.com/dzegys5yk/image/upload/w_600/v1684862369/ACM-W/_MG_5071_kc4ycy.jpg',
+    'https://res.cloudinary.com/dzegys5yk/image/upload/w_600/v1684862369/ACM-W/_MG_5085_f1eomk.jpg',
+    'https://res.cloudinary.com/dzegys5yk/image/upload/w_600/v1684862369/ACM-W/_MG_5075_sogc3m.jpg',
+    'https://res.cloudinary.com/dzegys5yk/image/upload/w_600/v1684862369/ACM-W/_MG_5088_ionnyw.jpg',
   ];
   const e1Data = [
-    'https://res.cloudinary.com/dbmw0xoar/image/upload/v1668541971/ecell/ACM-W/acm_event1_drbadi.jpg',
+    'https://res.cloudinary.com/dbmw0xoar/image/upload/w_600/v1668541971/ecell/ACM-W/acm_event1_drbadi.jpg',
   ];
   return (
     <div className="bg-[#B7D7E5]">
