@@ -36,13 +36,12 @@ const EventCarousel = ({ imageLinks }) => {
       >
         {imageLinks.map((itemKey, index) => {
           return (
-            <SwiperSlide>
+            <SwiperSlide key={index}>
               <Image
                 width="600"
                 height="600"
                 className="md:w-[38rem] md:h-[28rem] w-[18rem] xs:w-[25rem] 5xl:w-[30rem] h-[15rem] xs:h-[18rem] 5xl:h-[20rem] rounded-sm shadow-xl"
                 src={itemKey}
-                key={index}
                 alt={`event logo ${index}`}
               />
             </SwiperSlide>
