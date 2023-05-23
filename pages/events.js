@@ -1,7 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
 import EventCarousel from '../components/EventCarousel';
-import Events from '../components/Events';
 import Navbar from '../components/Navbar';
 
 const events = () => {
@@ -41,8 +40,8 @@ const events = () => {
             <EventCarousel imageLinks={e1Data} />
             <div className="content flex flex-col md:w-[38rem] 5xl:w-[30rem] w-[90%] mx-auto">
               <p className="text-[#333333] text-[.9rem] 5xl:text-[1rem] lg:text-[1.1rem] text-justify">
-                We conducted a coding event pairing with NITK's ACM-W chapter:
-                RecHERsion - a all girl coding competition.
+                We conducted a coding event pairing with NITK&apos;s ACM-W
+                chapter: RecHERsion - a all girl coding competition.
               </p>
             </div>
           </div>
@@ -80,8 +79,8 @@ const events = () => {
               <p className="text-[#333333] text-[.9rem] 5xl:text-[1rem] lg:text-[1.1rem] text-justify">
                 Exceptional platform for students to engage in thought-provoking
                 discussions and expand their network. Presentations explored
-                topics such as the significance of "The buzz around
-                Computational Thinking," inspiring attendees to explore its
+                topics such as the significance of &quot;The buzz around
+                Computational Thinking&quot;, inspiring attendees to explore its
                 potential.
               </p>
             </div>
@@ -97,10 +96,10 @@ const events = () => {
               <p className="text-[#333333] text-[.9rem] 5xl:text-[1rem] lg:text-[1.1rem] text-justify">
                 ACM-W talk by Professor Bhavana Kanukurthi, a distinguished
                 researcher and Professor of Cryptography at the Indian Institute
-                of Science (IISc), Bangalore. The talk, titled "Navigating
-                Uncertainty: A Researcher's Perspective", is aimed at students
-                curious about research but need help figuring out where to start
-                or what it entails.
+                of Science (IISc), Bangalore. The talk, titled &quot;Navigating
+                Uncertainty: A Researcher&apos;s Perspective&quot;, is aimed at
+                students curious about research but need help figuring out where
+                to start or what it entails.
               </p>
             </div>
           </div>
