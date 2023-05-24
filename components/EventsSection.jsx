@@ -29,7 +29,7 @@ const EventsSection = () => {
           instaLink=""
           imgLink="https://res.cloudinary.com/dbmw0xoar/image/upload/v1684840332/ecell/ACM-W/Screenshot_from_2023-05-23_16-40-55_iqlhpr.png   "
           title="ACM India Student and Professional Chapter Summit 2023 held at IISER PUNE"
-          info={`Exceptional platform for students to engage in thought-provoking discussions and expand their network. Presentations explored topics such as the significance of "The buzz around Computational Thinking," inspiring attendees to explore its potential.`}
+          info={` It provided a platform for students to engage in thought-provoking discussions and expand their network.  An innovative initiative aimed at accelerating scientific discovery emphasized collaboration and interdisciplinary approaches. Networking opportunities with diverse individuals fostered camaraderie, while a panel discussion equipped attendees with valuable insights on graduating student's readiness for the real world.`}
           date="January 20-21st 2023"
         />
         <EventCard

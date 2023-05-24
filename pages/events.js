@@ -77,11 +77,14 @@ const events = () => {
             <EventCarousel imageLinks={e3Data} />
             <div className="content flex flex-col md:w-[38rem] 5xl:w-[30rem] w-[90%] mx-auto">
               <p className="text-[#333333] text-[.9rem] 5xl:text-[1rem] lg:text-[1.1rem] text-justify">
-                Exceptional platform for students to engage in thought-provoking
-                discussions and expand their network. Presentations explored
-                topics such as the significance of &quot;The buzz around
-                Computational Thinking&quot;, inspiring attendees to explore its
-                potential.
+                It provided a platform for students to engage in
+                thought-provoking discussions and expand their network. An
+                innovative initiative aimed at accelerating scientific discovery
+                emphasized collaboration and interdisciplinary approaches.
+                Networking opportunities with diverse individuals fostered
+                camaraderie, while a panel discussion equipped attendees with
+                valuable insights on graduating student&apos;s readiness for the
+                real world.
               </p>
             </div>
           </div>
