@@ -1,35 +1,11 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# ACM-Women Student Chapter IITH
+Glad to announce the launch of the ACM Women Student Chapter, a networking platform to bring together all the young minds in engineering to fire their inner leader, make notable contributions to tech, and broaden their connections. We aim to usher these young minds into the student community to leap forward in envisioning their dream selves
 
-## Getting Started
+| Date | 3th November 2022|
+| - | - |
 
-First, run the development server:
-
+The website for the Association for Computing Machinery Women Chapter IIT Hyderabad is [Live!](https://acm-w-frostedcupcake.vercel.app/):
 ```bash
-npm run dev
-# or
-yarn dev
+https://acm-w-frostedcupcake.vercel.app/
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# ACM-W
+![image](https://github.com/frostedCupcake/ACM-W/assets/99611801/ec003062-7c21-4f4e-9ade-abca97382276)
